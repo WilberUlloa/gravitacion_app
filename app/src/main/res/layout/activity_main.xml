@@ -7,12 +7,24 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/titleView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Hola mundo"
-        android:textSize="20dp"
-        android:textAlignment="center"
-        app:layout_constraintBottom_toTopOf="parent"/>
+        android:gravity="start"
+        android:text="Inicio"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"/>
 
-
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/listRecyclearView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="78dp"
+        android:clipToPadding="false"
+        android:paddingVertical="8dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>
