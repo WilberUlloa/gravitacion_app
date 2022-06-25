@@ -5,28 +5,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".Contents">
 
     <TextView
-        android:id="@+id/titleView"
+        android:id="@+id/title_ScreenTwo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="start"
-        android:text="Inicio"
+        android:text="Textview"
         android:textColor="@color/black"
-        android:textSize="30dp"
+        android:textSize="40dp"
         android:textStyle="bold"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="15dp"/>
-
-    <ListView
-        android:id="@+id/listaView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-
 </LinearLayout>
-
-
-
