@@ -3,11 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Oasis-PC/AndroidStudioProjects/gravitacin_app/app/src/main/res/drawable/radius_corners.xml" value="0.2165" />
+        <entry key="..\:/Users/Oasis-PC/AndroidStudioProjects/gravitacin_app/app/src/main/res/drawable/resource_icon.xml" value="0.259" />
         <entry key="..\:/Users/Oasis-PC/AndroidStudioProjects/gravitacin_app/app/src/main/res/drawable/splash_screen.xml" value="0.18" />
         <entry key="..\:/Users/Oasis-PC/AndroidStudioProjects/gravitacin_app/app/src/main/res/layout/activity_content_sreen.xml" value="0.278125" />
-        <entry key="..\:/Users/Oasis-PC/AndroidStudioProjects/gravitacin_app/app/src/main/res/layout/activity_contents.xml" value="0.2640625" />
-        <entry key="..\:/Users/Oasis-PC/AndroidStudioProjects/gravitacin_app/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/Oasis-PC/AndroidStudioProjects/gravitacin_app/app/src/main/res/layout/list_element.xml" value="0.1" />
+        <entry key="..\:/Users/Oasis-PC/AndroidStudioProjects/gravitacin_app/app/src/main/res/layout/activity_contents.xml" value="0.16" />
+        <entry key="..\:/Users/Oasis-PC/AndroidStudioProjects/gravitacin_app/app/src/main/res/layout/activity_exercise.xml" value="0.22" />
+        <entry key="..\:/Users/Oasis-PC/AndroidStudioProjects/gravitacin_app/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Oasis-PC/AndroidStudioProjects/gravitacin_app/app/src/main/res/layout/activity_view_content.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/Oasis-PC/AndroidStudioProjects/gravitacin_app/app/src/main/res/layout/list_element.xml" value="0.25" />
         <entry key="..\:/Users/Oasis-PC/AndroidStudioProjects/gravitacin_app/app/src/main/res/layout/splash_screen.xml" value="0.25" />
         <entry key="..\:/Users/Oasis-PC/AndroidStudioProjects/gravitacin_app/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.256" />
       </map>
