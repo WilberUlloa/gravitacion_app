@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    tools:context=".Credit">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Créditos"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp" />
+
+    <ImageView
+        android:id="@+id/image_firstView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_above="@+id/textview"
+        android:layout_below="@+id/title"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="48dp"
+        android:src="@drawable/programador" />
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Autor: Wilber Ulloa"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:layout_alignParentBottom="true"
+        android:textAlignment="center"
+        android:layout_marginBottom="250dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gravitación versión 1"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/purple_500"
+        android:layout_alignParentBottom="true"
+        android:textAlignment="center"
+        android:layout_marginBottom="200dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp" />
+
+</RelativeLayout>

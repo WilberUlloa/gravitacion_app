@@ -26,5 +26,9 @@ class MainActivity : AppCompatActivity() {
         btnGoExercises.setOnClickListener {
             startActivity(Intent(this, Exercise::class.java))
         }
+
+        btnGoCredits.setOnClickListener {
+            startActivity(Intent(this, Credit::class.java))
+        }
     }
 }

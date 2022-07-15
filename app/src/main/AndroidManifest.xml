@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Gravitación_app">
         <activity
+            android:name=".Credit"
+            android:exported="false" />
+        <activity
             android:name=".Exercise"
             android:exported="false" />
         <activity

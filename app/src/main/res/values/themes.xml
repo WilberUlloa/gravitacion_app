@@ -18,4 +18,13 @@
         <item name="android:windowBackground">@drawable/splash_screen</item>
     </style>
 
+    <style name="Theme.Gravitación_app.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Gravitación_app.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Gravitación_app.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
 </resources>
